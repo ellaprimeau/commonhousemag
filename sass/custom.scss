@@ -1,13 +1,18 @@
 //custom variables
-$primary: #20432C;
+$primary: #264E36;
 $garamond: 'Cormorant Garamond', serif;
+$montserrat: 'Montserrat', sans-serif;
 
 //styles
-.test {
+.garamond-font {
 	font-family: $garamond;
+}
+
+.montserrat-font {
+	font-family: $montserrat;
 }
 
 //import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
