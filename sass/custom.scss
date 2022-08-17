@@ -1,0 +1,13 @@
+//custom variables
+$primary: #20432C;
+$garamond: 'Cormorant Garamond', serif;
+
+//styles
+.test {
+	font-family: $garamond;
+}
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
