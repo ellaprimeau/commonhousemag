@@ -1,7 +1,12 @@
 //custom variables
 $primary: #264E36;
+$body-bg: #F7F9F8;
 $garamond: 'Cormorant Garamond', serif;
 $montserrat: 'Montserrat', sans-serif;
+
+$display-font-sizes: (
+	1: 6.875rem,
+);
 
 //styles
 .garamond-font {
