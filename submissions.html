@@ -20,6 +20,9 @@
 	</script>
 
 	<body>
+		<div class="container-fluid py-4 bg-primary text-white text-center">
+			Join us at our Blue Monday open mic night on November 7! <a class="text-white" href="https://www.facebook.com/events/1836859223312463/?acontext=%7B%22source%22%3A5%2C%22action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%2C%22mechanism%22%3A%22external_search_engine%22%2C%22extra_data%22%3A%22%5C%22[]%5C%22%22%7D%2C%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%5C%22[]%5C%22%22%7D]%2C%22has_source%22%3Atrue%7D">Click here for more info.</a>
+		</div>
 		<nav class="navbar navbar-nav-scroll navbar-expand-sm navbar-dark-custom">
   			<div class="container-fluid">
   				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +45,13 @@
 	    					<a class="nav-link active montserrat-font" href="about_us.html">About Us</a>
 	    				</li>    -->
 	    			</ul>
-	    			<div class="d-flex flex-row justify-content-center">
+	    			<div class="d-flex flex-row justify-content-center mt-3 mt-sm-0">
     					<a class="nav-link active pe-2" href="https://www.instagram.com/commonhousemag/"><i class="bi bi-instagram"></i></a>
     					<a class="nav-link active px-2" href="https://twitter.com/commonhousemag"><i class="bi bi-twitter"></i></a> 				
     					<a class="nav-link active ps-2" href="https://www.facebook.com/Common-House-Magazine-109313201723278/"><i class="bi bi-facebook"></i></a>
+	    			</div>
+	    			<div class="d-flex flex-row justify-content-center mt-2 mt-sm-0">
+	    				<button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Donate</button>
 	    			</div>
 	    		</div>
   			</div>
@@ -108,5 +114,22 @@
 		<a class="px-2" href="https://twitter.com/commonhousemag"><i class="bi bi-twitter" style="color: black;"></i></a> 				
 		<a class="ps-2" href="https://www.facebook.com/Common-House-Magazine-109313201723278/"><i class="bi bi-facebook" style="color: black;"></i></a>
 	</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Common House is accepting donations!</h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        Our magazine is run entirely by volunteers, and all funds go directly into the upkeep, publication, and promotion of the magazine and associated events.<br><br>
+		        <b>We currently accept donations by e-transfer to commonhousemag.donations@gmail.com.</b>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	</body>
 </html>
