@@ -11,7 +11,12 @@
 	</head>
 
 	<script>
-    document.addEventListener("touchstart", function() {},false);
+		$(document).ready(function() {
+		    $('.hover').on('touchstart touchend', function(e) {
+		        e.preventDefault();
+		        $(this).toggleClass('hover_effect');
+		    });
+		});
 	</script>
 
 
@@ -42,7 +47,9 @@
 								  <a onclick="" href="issue1/textItems/editorsNote.html">
 								    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
 								    	<div class="d-flex justify-content-center align-items-center h-100">
-        								<p class="text-white mb-0">Editor's Note</p>
+	      								<p class="text-white mb-0 text-center">Editor’s Note<br>
+	      									<small><i>Leyla Abdolell</i></small>
+	      								</p>
       								</div>
 								    </div>
 								  </a>
@@ -54,7 +61,9 @@
 									<a onclick="" href="issue1/textItems/interview.html">
 								    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
 								    	<div class="d-flex justify-content-center align-items-center h-100">
-        								<p class="text-white text-center mb-0">Interview with uOttawa’s Writer-in-Residence Kagiso Lesego Molope</p>
+	      								<p class="text-white mb-0 text-center">Interview with Kagiso Lesego Molope<br>
+	      									<small><i>Ian Soutar</i></small>
+	      								</p>
       								</div>
 								    </div>
 									</a>
@@ -231,7 +240,7 @@
 								<a onclick="" href="issue1/textItems/desires.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
 							    	<div class="d-flex justify-content-center align-items-center h-100">
-      								<p class="text-white mb-0 text-center">Desires Are Nourished By Delays<br>
+      								<p class="text-white mb-0 text-center">Desires Are Nourished by Delays<br>
       									<small><i>Kayla Eli</i></small>
       								</p>
     								</div>
