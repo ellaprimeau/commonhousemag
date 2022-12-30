@@ -8,37 +8,11 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 		<link rel="stylesheet" href="sass/custom.css">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+		<script src="hoverontouch.js"></script>
 	</head>
 
-<script>
- 
-;(function(){
-    var isTouch = false //var to indicate current input type (is touch versus no touch) 
-    var isTouchTimer 
-    var curRootClass = '' //var indicating current document root class ("can-touch" or "")
-     
-    function addtouchclass(e){
-        clearTimeout(isTouchTimer)
-        isTouch = true
-        if (curRootClass != 'can-touch'){ //add "can-touch' class if it's not already present
-            curRootClass = 'can-touch'
-            document.documentElement.classList.add(curRootClass)
-        }
-        isTouchTimer = setTimeout(function(){isTouch = false}, 500) //maintain "istouch" state for 500ms so removetouchclass doesn't get fired immediately following a touch event
-    }
-     
-    function removetouchclass(e){
-        if (!isTouch && curRootClass == 'can-touch'){ //remove 'can-touch' class if not triggered by a touch event and class is present
-            isTouch = false
-            curRootClass = ''
-            document.documentElement.classList.remove('can-touch')
-        }
-    }
-     
-    document.addEventListener('touchstart', addtouchclass, false) //this event only gets called when input type is touch
-    document.addEventListener('mouseover', removetouchclass, false) //this event gets called when input type is everything from touch to mouse/ trackpad
-})();
- 
+<script type="text/javascript">
+    var HoverOnTouch = new HoverOnTouch();
 </script>
 
 	<body>
@@ -65,7 +39,7 @@
 							<div class="col-sm-5 my-5 mt-5 mx-auto p-0 border border-4 border-white">
 								<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 									<img src="issue1/editorsnote.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;">
-								  <a ontouchstart="" href="issue1/textItems/editorsNote.html">
+								  <a href="issue1/textItems/editorsNote.html">
 								    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
 								    	<div class="d-flex justify-content-center align-items-center h-100">
 	      								<p class="text-white mb-0 text-center">Editor’s Note<br>
