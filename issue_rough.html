@@ -19,7 +19,10 @@
 			     (navigator.msMaxTouchPoints > 0));
 			}
 
-			if (!isTouchDevice()) document.body.addHoverWithScript += 'hover-overlay'
+			if (!isTouchDevice()) 
+				{document.body.classList.add('hover-overlay');
+				console.log("not touch");
+			}
 		</script>
 
 	<div class="container my-5 px-md-5">
@@ -43,7 +46,7 @@
 					<div class="mx-auto my-auto">
 						<div class="row">
 							<div class="col-sm-5 my-5 mt-5 mx-auto p-0 border border-4 border-white">
-								<div class="addHoverWithScript montserrat-font d-flex align-items-center justify-content-center bg-image hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;" tabIndex="0">
+								<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;" tabIndex="0">
 									<img src="issue1/editorsnote.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;">
 								  <a id="hover" href="issue1/textItems/editorsNote.html">
 								    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -82,7 +85,7 @@
 					</h2>
 					<div class="row mb-sm-3 ">
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-primary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1/thestoning.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/theStoning.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -96,7 +99,7 @@
 							</div>
 						</div>
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-primary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\theantsthatcarriedus.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/theAnts.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -115,7 +118,7 @@
 					</h2>
 					<div class="row mb-sm-3">
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\amity.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/amity.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -129,7 +132,7 @@
 							</div>
 						</div>
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\mixedgreens.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/mixedGreens.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -145,7 +148,7 @@
 					</div>
 					<div class="row mb-sm-3">
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\anodetofestivalbathrooms.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/festivalBathrooms.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -159,7 +162,7 @@
 							</div>
 						</div>
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\usualmorning.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/morning.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -175,7 +178,7 @@
 					</div>
 					<div class="row mb-sm-3">
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\incarnations.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/incarnations.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -189,7 +192,7 @@
 							</div>
 						</div>
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\adecadelater.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/aDecadeLater.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -203,7 +206,7 @@
 							</div>
 						</div>
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary d-inline d-sm-none">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\brokenghazal.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/ghazal.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -222,7 +225,7 @@
 					</h2>
 					<div class="row mb-sm-3">
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-secondary d-none d-sm-inline">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\brokenghazal.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/ghazal.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
@@ -236,7 +239,7 @@
 							</div>
 						</div>
 						<div class="col-sm-5 mx-auto mb-5 p-0 border border-4 border-primary">
-							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image hover-overlay hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
+							<div class="montserrat-font d-flex align-items-center justify-content-center bg-image  hover-zoom hover-shadow ripple" style="height: 100%; overflow: hidden;">
 								<img src="issue1\desiresarenourished.png" class="img-fluid" style="object-fit: cover; min-width: 100%; min-height: 100%;"></img>
 								<a onclick="" href="issue1/textItems/desires.html">
 							    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
