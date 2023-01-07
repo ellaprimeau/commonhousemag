@@ -1,1 +1,1 @@
-Future location of the Common House Magazine website
+Git repo of the Common House Magazine website
