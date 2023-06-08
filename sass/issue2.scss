@@ -1,0 +1,27 @@
+//custom variables
+$primary: #2a72b1;
+$secondary: #B89B72;
+$body-bg: #F7F9F8;
+$garamond: 'Cormorant Garamond', serif;
+$montserrat: 'Montserrat', sans-serif;
+
+$display-font-sizes: (
+	1: 6.875rem,
+);
+
+//styles
+.garamond-font {
+	font-family: $garamond;
+}
+
+.montserrat-font {
+	font-family: $montserrat;
+}
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+//import mdb
+@import '~mdb-ui-kit/css/mdb.min.css';
